@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Gourab.CeoGoal3">
+   <children>
+      <Button layoutX="14.0" layoutY="23.0" mnemonicParsing="false" text="Financial Performance" />
+      <TextField layoutX="14.0" layoutY="57.0" text="Financial Performance Table" />
+      <TableView layoutX="14.0" layoutY="96.0" prefHeight="103.0" prefWidth="493.0">
+        <columns>
+          <TableColumn prefWidth="155.20000457763672" text="Revenue" />
+          <TableColumn prefWidth="160.80001831054688" text=" Expenses" />
+            <TableColumn prefWidth="177.39996337890625" text="Net income" />
+        </columns>
+      </TableView>
+      <TextField layoutX="15.0" layoutY="221.0" text="Reports" />
+      <RadioButton layoutX="201.0" layoutY="225.0" mnemonicParsing="false" text="Filter " />
+      <RadioButton layoutX="307.0" layoutY="225.0" mnemonicParsing="false" text=" Fiscal year." />
+      <ComboBox layoutX="15.0" layoutY="267.0" prefWidth="150.0" promptText=" Financial Statements Department" />
+      <Button layoutX="15.0" layoutY="304.0" mnemonicParsing="false" text="Request Update" />
+      <TextField layoutX="15.0" layoutY="336.0" text="Export" />
+      <RadioButton layoutX="217.0" layoutY="340.0" mnemonicParsing="false" text="Pdf" />
+      <RadioButton layoutX="307.0" layoutY="340.0" mnemonicParsing="false" text="Excel" />
+      <Button layoutX="14.0" layoutY="362.0" mnemonicParsing="false" text="Feedback" />
+   </children>
+</AnchorPane>

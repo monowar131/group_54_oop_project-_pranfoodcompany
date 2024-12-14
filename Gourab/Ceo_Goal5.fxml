@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Gourab.CeoGoal5">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Daily Operations" />
+      <TableView layoutX="14.0" layoutY="131.0" prefHeight="61.0" prefWidth="556.0">
+        <columns>
+          <TableColumn prefWidth="169.59999656677246" text="Progress" />
+          <TableColumn prefWidth="195.20001220703125" text="Issues" />
+            <TableColumn prefWidth="191.39999389648438" text="Team Involvment" />
+        </columns>
+      </TableView>
+      <TextField layoutX="25.0" layoutY="94.0" text="Progress Table" />
+      <ComboBox layoutX="14.0" layoutY="50.0" prefWidth="150.0" promptText=" Production Tasks Department" />
+      <Button layoutX="14.0" layoutY="214.0" mnemonicParsing="false" text="Assign Tasks" />
+      <Button layoutX="11.0" layoutY="250.0" mnemonicParsing="false" text="Review Status" />
+      <Button layoutX="21.0" layoutY="302.0" mnemonicParsing="false" text="Feedback" />
+   </children>
+</AnchorPane>

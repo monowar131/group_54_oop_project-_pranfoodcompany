@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Gourab.CeoGoal4">
+   <children>
+      <Button layoutX="22.0" layoutY="23.0" mnemonicParsing="false" text="Key Projects" />
+      <TextField layoutX="14.0" layoutY="74.0" text="Display Table" />
+      <TableView layoutX="24.0" layoutY="120.0" prefHeight="62.0" prefWidth="555.0">
+        <columns>
+          <TableColumn prefWidth="149.2000026702881" text="List Of Products" />
+          <TableColumn prefWidth="218.00003051757812" text="milestone" />
+            <TableColumn prefWidth="187.99993896484375" text="Status" />
+        </columns>
+      </TableView>
+      <Button layoutX="22.0" layoutY="200.0" mnemonicParsing="false" text="Project Details" />
+      <Button layoutX="16.0" layoutY="232.0" mnemonicParsing="false" text="Reallocate Resources" />
+      <Button layoutX="25.0" layoutY="271.0" mnemonicParsing="false" text="Notify Project Manager" />
+      <RadioButton layoutX="196.0" layoutY="275.0" mnemonicParsing="false" text="Feedback" />
+      <RadioButton layoutX="312.0" layoutY="275.0" mnemonicParsing="false" text="Instructions" />
+      <Button layoutX="37.0" layoutY="330.0" mnemonicParsing="false" text="Approve Deliverable" />
+   </children>
+</AnchorPane>

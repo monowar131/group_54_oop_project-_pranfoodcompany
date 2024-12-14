@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Gourab.CEOGoal1">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Company Overview" />
+      <TableView layoutX="14.0" layoutY="109.0" prefHeight="111.0" prefWidth="451.0">
+        <columns>
+          <TableColumn prefWidth="140.2000026702881" text="sales" />
+          <TableColumn prefWidth="145.39999389648438" text=" profit" />
+            <TableColumn prefWidth="164.99996948242188" text="expenses" />
+        </columns>
+      </TableView>
+      <TextField layoutX="20.0" layoutY="69.0" text="performance Table" />
+      <ComboBox layoutX="19.0" layoutY="234.0" prefWidth="150.0" promptText=" Filtering" />
+      <TextField layoutX="20.0" layoutY="289.0" text="Report" />
+      <RadioButton layoutX="196.0" layoutY="293.0" mnemonicParsing="false" text="download" />
+      <RadioButton layoutX="300.0" layoutY="293.0" mnemonicParsing="false" text="print" />
+      <Button layoutX="22.0" layoutY="335.0" mnemonicParsing="false" text="Feedback" />
+   </children>
+</AnchorPane>

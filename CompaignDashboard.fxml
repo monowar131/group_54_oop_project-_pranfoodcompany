@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CompaignDashboard">
+   <children>
+      <AnchorPane layoutY="-13.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button layoutX="40.0" layoutY="30.0" mnemonicParsing="false" onAction="#CompaignDashboardOnActionButton" text="Compaign Dashboard" />
+            <TextField fx:id="CampaignTableTextfield" layoutX="23.0" layoutY="75.0" text="Campaign Table" />
+            <TableView layoutX="54.0" layoutY="111.0" prefHeight="78.0" prefWidth="532.0">
+              <columns>
+                <TableColumn fx:id="CampaignTableClicksColoumbs" prefWidth="179.0" text="clicks" />
+                <TableColumn fx:id="CampaignTableConversationsColoumbs" prefWidth="166.0" text="conversations" />
+                  <TableColumn fx:id="CampaignTableCRioColoumbs" prefWidth="186.0" text="Rio" />
+              </columns>
+            </TableView>
+            <Button layoutX="40.0" layoutY="227.0" mnemonicParsing="false" onAction="#RequestUpdateOnActionButton" text="Request Update" />
+            <TextField fx:id="ReportTextfield" layoutX="23.0" layoutY="277.0" text="Report" />
+            <RadioButton layoutX="213.0" layoutY="281.0" mnemonicParsing="false" onAction="#PdfOnActionRadioButton" text="Pdf" />
+            <RadioButton layoutX="371.0" layoutY="272.0" mnemonicParsing="false" onAction="#ExcelOnActionRadioButton" text="Excel" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

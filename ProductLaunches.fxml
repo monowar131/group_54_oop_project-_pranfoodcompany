@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProductLaunches">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="601.0">
+         <children>
+            <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#ProductLaunchesOnActionButton" text="Product Launches" />
+            <Button layoutX="28.0" layoutY="234.0" mnemonicParsing="false" onAction="#UpdateOnActionButton" text="Update" />
+            <RadioButton layoutX="209.0" layoutY="331.0" mnemonicParsing="false" onAction="#PdfOnActionRadioButton" text="Pdf" />
+            <TableView layoutX="13.0" layoutY="87.0" prefHeight="121.0" prefWidth="570.0">
+              <columns>
+                <TableColumn prefWidth="99.20001411437988" text="Timelines" />
+                <TableColumn prefWidth="100.79998016357422" text="Status" />
+                  <TableColumn prefWidth="148.60003662109375" text="Product" />
+                  <TableColumn prefWidth="102.79998779296875" text="Marketing" />
+                  <TableColumn prefWidth="119.80001831054688" text="Feedback" />
+              </columns>
+            </TableView>
+            <Button layoutX="28.0" layoutY="276.0" mnemonicParsing="false" onAction="#GenerateLaunchOnActionButton" text="Generate Launch" />
+            <TextField fx:id="ExportDataTextfield" layoutX="28.0" layoutY="327.0" text="Export Data" />
+            <RadioButton layoutX="278.0" layoutY="331.0" mnemonicParsing="false" onAction="#ExcelOnActionRadioButton" text="Excel" />
+            <TextField fx:id="LaunchTableTextfield" layoutX="20.0" layoutY="49.0" text=" Launch Table" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
